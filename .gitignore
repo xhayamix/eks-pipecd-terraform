@@ -1,0 +1,11 @@
+.idea
+.terraform
+
+.terraform.lock.hcl
+.env.local
+*.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+
+deployment.yaml
+service.yaml

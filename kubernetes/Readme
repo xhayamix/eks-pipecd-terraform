@@ -1,0 +1,10 @@
+aws eks --region ap-northeast-1 update-kubeconfig --name <cluster-name>
+
+kubectl apply -f <filename>
+kubectl get nodes
+kubectl get pods
+kubectl logs <pod>
+kubectl rollout restart deployment/<name>
+kubectl get service <name>
+kubectl get endpoints <name>
+kubectl describe svc <name>
